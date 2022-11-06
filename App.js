@@ -1,14 +1,15 @@
 import React from 'react';
-import { Provider as PaperProvider, TextInput} from 'react-native-paper';
-import { LoginScreen } from './App/screens/login/login.screens';
+import { Provider as PaperProvider } from 'react-native-paper';
 import { theme } from './App.style';
-import { RegisterScreen } from './App/screens/register/register.screens';
+import AppNavigator  from './App/app.navigator';
 
-const App = () => {
+
+
+const  App = () => {
 
  return (
     <PaperProvider theme={theme}>
-     <RegisterScreen /> 
+  <AppNavigator/>
     </PaperProvider>
   );
 };

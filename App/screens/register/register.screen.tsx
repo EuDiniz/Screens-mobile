@@ -1,8 +1,8 @@
 import React  from "react";
 import { SafeAreaView, ScrollView, View } from "react-native";
-import { Appbar, TextInput, Button } from "react-native-paper";
+import { TextInput, Button } from "react-native-paper";
 import { registerStyle } from './register.style';
-import { HeaderComponent } from './../../components/header/header.componet';
+import { HeaderComponent } from '../../components/header/header.componet';
 
 export const RegisterScreen = () => {
     return (
