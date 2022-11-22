@@ -1,15 +1,11 @@
 import React from 'react';
-import { Alert, SafeAreaView, View } from 'react-native';
+import {  SafeAreaView, View } from 'react-native';
 import { Button, Card, TextInput } from 'react-native-paper';
 import { loginStyle } from './login.style';
 
-interface LoginScreenProps {
-  navigation: any;
-}
 
-export const LoginScreen = (props: LoginScreenProps) => {
- 
-const login =() => props.navigation.navigate("Register")
+export const LoginScreen = ( ) => {
+
     return (
         <SafeAreaView style={loginStyle.content}>
           <View style={loginStyle.view}>
@@ -20,7 +16,7 @@ const login =() => props.navigation.navigate("Register")
                  <TextInput label="Senha" secureTextEntry={true}></TextInput>
 
                  <Button 
-                 onPress={login}
+               
                  mode="contained" 
                  style={loginStyle.cardButton} > 
                  
@@ -29,7 +25,7 @@ const login =() => props.navigation.navigate("Register")
                 </Button>
                  <Button 
                
-                 uppercase={false}  
+                 
                  style={loginStyle.cardButton}> 
                  Não possui uma conta ? 
 
@@ -44,3 +40,4 @@ const login =() => props.navigation.navigate("Register")
         </SafeAreaView>
     );
 }
+export default LoginScreen

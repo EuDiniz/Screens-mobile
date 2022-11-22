@@ -22,3 +22,5 @@ export const RegisterScreen = () => {
         </SafeAreaView>
     );
 }
+
+export default RegisterScreen
