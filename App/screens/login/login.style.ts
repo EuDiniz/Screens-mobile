@@ -4,8 +4,7 @@ import { black } from "react-native-paper/lib/typescript/styles/themes/v2/colors
 
 export const loginStyle = StyleSheet.create({
 
-    content:{
-
+    content:{   
     display: "flex",
     flex: 1,
     justifyContent: "center",
@@ -18,11 +17,14 @@ export const loginStyle = StyleSheet.create({
   
     view: {
        width: "95%",
+      
        
     },
 
     cardTitle: {
         color: "rgb(0,0,0)"
+        
+
     },
 
     cardButton: {

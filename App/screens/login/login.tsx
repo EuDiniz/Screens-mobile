@@ -13,7 +13,7 @@ export const LoginScreen = ( ) => {
         <SafeAreaView style={loginStyle.content}>
           <View style={loginStyle.view}>
            <Card>
-             <Card.Title title="App Bank" titleStyle={loginStyle.cardTitle}></Card.Title>
+             <Card.Title title="App "  titleStyle={loginStyle.cardTitle}></Card.Title>
             <Card.Content>
                  <TextInput label="Email" keyboardType="email-address" ></TextInput>
                  <TextInput label="Senha" secureTextEntry={true}></TextInput>
