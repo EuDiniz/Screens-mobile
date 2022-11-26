@@ -10,7 +10,7 @@ export const loginStyle = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     flexDirection: "row",
-    backgroundColor: "rgb(0,0,0)"
+    backgroundColor: "rgb(255,255,255)"
     
 
     },

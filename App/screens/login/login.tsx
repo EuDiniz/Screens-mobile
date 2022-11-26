@@ -21,6 +21,7 @@ export const LoginScreen = ( ) => {
                  <Button
                 onPress={() => navigation.navigate("Home")}
                  mode="contained" 
+                 
                  style={loginStyle.cardButton} > 
                  
                  Login 
